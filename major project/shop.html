@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <section id="header">
+        <a href="#"><img src="../images/US.png" class="logo" alt="Logo"></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li id="lg-bag"><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                <a href="#" id="close"><i class="fa-regular fa-circle-xmark"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+            <i id="bar" class="fa-solid fa-outdent"></i>
+        </div>
+    </section>
+
+    <section id="page-header">
+        <h2>#Shop Now!</h2>
+        <p>Unwrap the Best Deals</p>
+    </section>
+
+    <section id="product1" class="section-p1">
+        <div class="pro-container">
+            <!-- Product 1 -->
+            <div class="pro">
+                <a
+                    href="sproduct.html?image=../images/product1.jpeg&brand=PUMA&title=Fancy%20T-shirts&stars=5&price=$130">
+                    <img src="../images/product1.jpeg" alt="Fancy T-shirts">
+                    <div class="des">
+                        <span>PUMA</span>
+                        <h5>Fancy T-shirts</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>$130</h4>
+                    </div>
+                    <a href="#" onclick="addToCart('product1', '../images/product1.jpeg', 'Fancy T-shirts', '$30')"><i
+                            class="fa-solid fa-cart-shopping cart"></i></a>
+                </a>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="pro">
+                <a
+                    href="sproduct.html?image=../images/product2.jpeg&brand=PETER%20ENGLAND&title=Formal%20shirt&stars=5&price=$160">
+                    <img src="../images/product2.jpeg" alt="Formal Shirt">
+                    <div class="des">
+                        <span>PETER ENGLAND</span>
+                        <h5>Formal Shirt</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>$160</h4>
+                    </div>
+                    <a href="#" onclick="addToCart('product2', '../images/product2.jpeg', 'Formal Shirt', '$160')"><i
+                            class="fa-solid fa-cart-shopping cart"></i></a>
+                </a>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="pro">
+                <a
+                    href="sproduct.html?image=../images/product11.jpg&brand=SLEA&title=Cotton%20Linen%20Short%20Sleeve&stars=5&price=$150">
+                    <img src="../images/product11.jpg" alt="Cotton Linen Short Sleeve">
+                    <div class="des">
+                        <span>SLEA</span>
+                        <h5>Cotton Linen Short Sleeve</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>$150</h4>
+                    </div>
+                    <a href="#"
+                        onclick="addToCart('product3', '../images/product11.jpg', 'Cotton Linen Short Sleeve', '$150')"><i
+                            class="fa-solid fa-cart-shopping cart"></i></a>
+                </a>
+            </div>
+
+            <!-- Product 4 -->
+            <div class="pro">
+                <a
+                    href="sproduct.html?image=../images/product22.jpg&brand=FITODA%20FASHION&title=Casual%20Black%20Shirt&stars=5&price=$45">
+                    <img src="../images/product22.jpg" alt="Casual Black Shirt">
+                    <div class="des">
+                        <span>FITODA FASHION</span>
+                        <h5>Casual Black Shirt</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>$45</h4>
+                    </div>
+                    <a href="#"
+                        onclick="addToCart('product4', '../images/product22.jpg', 'Casual Black Shirt', '$45')"><i
+                            class="fa-solid fa-cart-shopping cart"></i></a>
+                </a>
+            </div>
+
+            <!-- Product 5 -->
+            <div class="pro">
+                <a
+                    href="sproduct.html?image=../images/product33.jpg&brand=RUSSELL%20ATHLETIC&title=Vintage%20Hoodie&stars=5&price=$80">
+                    <img src="../images/product33.jpg" alt="Vintage Hoodie">
+                    <div class="des">
+                        <span>RUSSELL ATHLETIC</span>
+                        <h5>Vintage Hoodie</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>$80</h4>
+                    </div>
+                    <a href="#" onclick="addToCart('product5', '../images/product33.jpg', 'Vintage Hoodie', '$80')"><i
+                            class="fa-solid fa-cart-shopping cart"></i></a>
+                </a>
+            </div>
+
+            <!-- Product 6 -->
+            <div class="pro">
+                <a
+                    href="sproduct.html?image=../images/product44.jpg&brand=ZYHMD&title=Checked%20Shirt&stars=5&price=$40">
+                    <img src="../images/product44.jpg" alt="Checked Shirt">
+                    <div class="des">
+                        <span>ZYHMD</span>
+                        <h5>Checked Shirt</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>$40</h4>
+                    </div>
+                    <a href="#" onclick="addToCart('product6', '../images/product44.jpg', 'Checked Shirt', '$40')"><i
+                            class="fa-solid fa-cart-shopping cart"></i></a>
+                </a>
+            </div>
+
+            <!-- Product 7 -->
+            <div class="pro">
+                <a
+                    href="sproduct.html?image=../images/product55.jpg&brand=ARKET&title=Denim%20Shirt&stars=5&price=$120">
+                    <img src="../images/product55.jpg" alt="Denim Shirt">
+                    <div class="des">
+                        <span>ARKET</span>
+                        <h5>Denim Shirt</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>$120</h4>
+                    </div>
+                    <a href="#" onclick="addToCart('product7', '../images/product55.jpg', 'Denim Shirt', '$120')"><i
+                            class="fa-solid fa-cart-shopping cart"></i></a>
+                </a>
+            </div>
+
+            <!-- Product 8 -->
+            <div class="pro">
+                <a
+                    href="sproduct.html?image=../images/product66.jpg&brand=SHOPYFLICK&title=Polyester%20Shirt&stars=5&price=$70">
+                    <img src="../images/product66.jpg" alt="Polyester Shirt">
+                    <div class="des">
+                        <span>SHOPYFLICK</span>
+                        <h5>Polyester Shirt</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>$70</h4>
+                    </div>
+                    <a href="#" onclick="addToCart('product8', '../images/product66.jpg', 'Polyester Shirt', '$70')"><i
+                            class="fa-solid fa-cart-shopping cart"></i></a>
+                </a>
+            </div>
+
+            <!-- Product 9 -->
+            <div class="pro">
+                <a
+                    href="sproduct.html?image=../images/product77.jpg&brand=US%20POLO&title=Slim%20Fit%20Shirt&stars=5&price=$55">
+                    <img src="../images/product77.jpg" alt="Slim Fit Shirt">
+                    <div class="des">
+                        <span>US POLO</span>
+                        <h5>Slim Fit Shirt</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>$55</h4>
+                    </div>
+                    <a href="#" onclick="addToCart('product9', '../images/product77.jpg', 'Slim Fit Shirt', '$55')"><i
+                            class="fa-solid fa-cart-shopping cart"></i></a>
+                </a>
+            </div>
+
+            <!-- Product 10 -->
+            <div class="pro">
+                <a
+                    href="sproduct.html?image=../images/product88.jpg&brand=MENTIFIC&title=Casual%20Shirt&stars=5&price=$35">
+                    <img src="../images/product88.jpg" alt="Casual Shirt">
+                    <div class="des">
+                        <span>MENTIFIC</span>
+                        <h5>Casual Shirt</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>$35</h4>
+                    </div>
+                    <a href="#" onclick="addToCart('product10', '../images/product88.jpg', 'Casual Shirt', '$35')"><i
+                            class="fa-solid fa-cart-shopping cart"></i></a>
+                </a>
+            </div>
+
+            <!-- Product 11 -->
+            <div class="pro">
+                <a
+                    href="sproduct.html?image=../images/product99.jpg&brand=RALPH%20LAUREN&title=Formal%20Shirt&stars=5&price=$38">
+                    <img src="../images/product99.jpg" alt="Formal Shirt">
+                    <div class="des">
+                        <span>RALPH LAUREN</span>
+                        <h5>Formal Shirt</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>$38</h4>
+                    </div>
+                    <a href="#" onclick="addToCart('product11', '../images/product99.jpg', 'Formal Shirt', '$38')"><i
+                            class="fa-solid fa-cart-shopping cart"></i></a>
+                </a>
+            </div>
+
+            <!-- Product 12 -->
+            <div class="pro">
+                <a
+                    href="sproduct.html?image=../images/product10.jpeg&brand=LOUIS%20PHILIPPE&title=Fancy%20Shirt&stars=5&price=$49">
+                    <img src="../images/product10.jpeg" alt="Fancy Shirt">
+                    <div class="des">
+                        <span>LOUIS PHILIPPE</span>
+                        <h5>Fancy Shirt</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>$49</h4>
+                    </div>
+                    <a href="#" onclick="addToCart('product12', '../images/product10.jpeg', 'Fancy Shirt', '$49')"><i
+                            class="fa-solid fa-cart-shopping cart"></i></a>
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="pagination" class="section-p1">
+        <a href="#">1</a>
+        <a href="#">2</a>
+        <a href="#"><i class="fa-solid fa-right-long"></i></a>
+    </section>
+
+    <footer class="section-p1">
+        <div class="footer-content">
+            <div class="footer-item">
+                <h4>Contact Us</h4>
+                <p>1234 Street Name, City, State, 56789</p>
+                <p>Email: contact@ecommerce.com</p>
+                <p>Phone: (123) 456-7890</p>
+            </div>
+            <div class="footer-item">
+                <h4>Follow Us</h4>
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">Twitter</a>
+            </div>
+            <div class="footer-item">
+                <h4>About</h4>
+                <p>We are a leading ecommerce company providing high-quality products at unbeatable prices. Shop with us
+                    for the best deals.</p>
+            </div>
+            <div class="footer-item">
+                <h4>Newsletter</h4>
+                <p>Subscribe to our newsletter to get the latest updates and offers.</p>
+                <input type="email" placeholder="Your Email">
+                <button type="button">Subscribe</button>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Ecommerce Website. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
